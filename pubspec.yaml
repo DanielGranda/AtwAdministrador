@@ -33,15 +33,17 @@ dependencies:
   charts_flutter: ^0.8.1
   font_awesome_flutter: ^8.5.0
   material_design_icons_flutter: ^3.2.4096
+  flushbar: ^1.9.1
 #Intro
   flutter_page_indicator: ^0.0.3
   transformer_page_view: ^0.1.6
 #Librerias Firebase
 ##############  
-#firebase_core: ^0.4.3+1
-  #firebase_auth: ^0.15.3
-  #firebase_messaging: ^6.0.9
-  #cloud_firestore: ^0.13.0+1
+  firebase_core: ^0.4.3+1
+  firebase_auth: ^0.15.3
+  firebase_messaging: ^6.0.9
+  cloud_firestore: ^0.13.0+1
+  firebase_database: ^3.1.1
   # Manejo de Maps
   #google_maps_flutter: ^0.5.21+15
   #permission_handler: ^4.0.0
@@ -52,8 +54,9 @@ dependencies:
   date_format: ^1.0.8
 # Manejo de estados
   provider: ^4.0.1
+  generic_bloc_provider: ^1.0.9
 # Google
-    #google_sign_in: ^4.1.1
+  google_sign_in: ^4.1.1
 # Preferencias de usuario
   #shared_preferences: ^0.5.6
 #Diseño y fotografia
